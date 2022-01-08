@@ -1,104 +1,63 @@
-######################## default configuration ####################
 baseURL = "/"
-title = "HaldeRex | A Cloud tech blog"
-theme = "apollo-hugo"
-# post pagination
 paginate = "5"
-# post excerpt
 summaryLength = "20"
-
-############################# Outputs ##############################
-[outputs]
-home = ["HTML", "RSS"]
-
+theme = "apollo-hugo"
+title = "HaldeRex | A Cloud tech blog"
 [markup.goldmark.renderer]
-unsafe= true
-
-############################# Plugins ##############################
-
-# CSS Plugins
-# [[params.plugins.css]]
-# link = ""
-
-# JS Plugins
-[[params.plugins.js]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
-
-###################### Navigation ###########################
-
-# main menu
+unsafe = true
 [[menu.main]]
 name = "Home"
-url = "/"
 weight = 1
-
 [[menu.main]]
 name = "About"
 url = "about"
 weight = 2
-
-
-#################### default parameters ############################
+[outputs]
+home = ["HTML", "RSS"]
 [params]
+author = "Themefisher"
+banner_content = "Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+custom_script = ""
+description = "This is meta description"
+favicon = "images/favicon.png"
 logo = "images/logo.png"
 logo_width = "100px"
-favicon = "images/favicon.png"
-# Meta data
-description = "This is meta description"
-author = "Themefisher"
-# main section
 main_section = "post"
-# banner content
-banner_content = "Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
-# copyright
-copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
-# custom script on header
-custom_script= ""
-
-# site variables
-[params.variables]
-primary_color = "#33186D"
-body_color = "#fff"
-text_color = "#333"
-text_color_dark = "#000"
-text_color_light = "#999"
-border_color = "#e2e2e2"
-black = "#000"
-white = "#fff"
-light = "#f1f1f1"
-
-# font variable
-# Give your font name from google font. and add font weight using comma, ex: "Roboto:400,500,900"
-primary_font = "DM Sans:400,500,700"
-icon_font = "Fontawesome 5 Free"
-
-# cookies
 [params.cookies]
 enable = false
 expire_days = 2
-
-############################# social site ########################
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+[params.variables]
+black = "#000"
+body_color = "#fff"
+border_color = "#e2e2e2"
+icon_font = "Fontawesome 5 Free"
+light = "#f1f1f1"
+primary_color = "#33186D"
+primary_font = "DM Sans:400,500,700"
+text_color = "#333"
+text_color_dark = "#000"
+text_color_light = "#999"
+white = "#fff"
 [[params.social]]
+icon = "fab fa-facebook"
+link = "#"
 title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "fab fa-twitter"
+link = "#"
 title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "fab fa-instagram"
+link = "#"
 title = "instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "fab fa-github"
+link = "#"
 title = "github"
-icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-linkedin"
 link = "#"
+title = "linkedin"
