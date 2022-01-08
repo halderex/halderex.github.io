@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: site/content/post
+  path: content/post
   label: Posts
   create: documents
   match: "**/*"
@@ -17,7 +17,7 @@ sections:
 - type: heading
   label: All Pages
 - type: directory
-  path: site/content
+  path: content
   label: All Pages
   create: all
   match: "**/*"
@@ -27,7 +27,7 @@ sections:
 - type: heading
   label: Configuration
 - type: document
-  path: site/config.toml
+  path: config.toml
   label: Configuration
 upload_dir: static/images
 public_path: "/images"
