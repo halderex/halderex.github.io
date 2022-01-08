@@ -6,6 +6,9 @@ title = "HaldeRex | A Cloud tech blog"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
+name = "Home"
+weight = 1
+[[menu.main]]
 name = "About"
 url = "about"
 weight = 2
