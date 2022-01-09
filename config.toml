@@ -1,0 +1,55 @@
+baseURL = "/"
+paginate = "5"
+summaryLength = "20"
+theme = "apollo-hugo"
+title = "HaldeRex | a Cloud Tech Blog"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.main]]
+name = "Home"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 2
+[outputs]
+home = ["HTML", "RSS"]
+[params]
+author = "Themefisher"
+# main section
+main_section = "post"
+# banner content
+banner_content = "Notes from the field working with Azure, Microsoft 365 and related Cloud technologies."
+# copyright
+copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+custom_script = ""
+description = "This is meta description"
+favicon = "images/favicon.png"
+logo = "images/logo.png"
+logo_width = "200px"
+main_section = "post"
+[params.cookies]
+enable = false
+expire_days = 2
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+[params.variables]
+black = "#000"
+body_color = "#fff"
+border_color = "#e2e2e2"
+icon_font = "Fontawesome 5 Free"
+light = "#f1f1f1"
+primary_color = "#33186D"
+primary_font = "DM Sans:400,500,700"
+text_color = "#333"
+text_color_dark = "#000"
+text_color_light = "#999"
+white = "#fff"
+[[params.social]]
+icon = "fab fa-github"
+link = "https://github.com/halderex"
+title = "github"
+[[params.social]]
+icon = "fab fa-linkedin"
+link = "https://www.linkedin.com/in/henrik-aldermo/"
+title = "linkedin"
