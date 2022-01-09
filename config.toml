@@ -2,7 +2,7 @@ baseURL = "/"
 paginate = "5"
 summaryLength = "20"
 theme = "apollo-hugo"
-title = "HaldeRex | A Cloud tech blog"
+title = "HaldeRex | A Cloud Tech Blog"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
@@ -16,14 +16,17 @@ weight = 2
 home = ["HTML", "RSS"]
 [params]
 author = "Themefisher"
-banner_content = "Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
-copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+# main section
+main_section = "post"
+# banner content
+banner_content = "Notes from the field working with Azure, Microsoft 365 and related Cloud technologies."
+# copyright
+copyright = "©️ Henrik Aldermo 2022"
 custom_script = ""
 description = "This is meta description"
 favicon = "images/favicon.png"
 logo = "images/logo.png"
-logo_width = "100px"
-main_section = "post"
+logo_width = "200px"
 [params.cookies]
 enable = false
 expire_days = 2
@@ -42,22 +45,10 @@ text_color_dark = "#000"
 text_color_light = "#999"
 white = "#fff"
 [[params.social]]
-icon = "fab fa-facebook"
-link = "#"
-title = "facebook"
-[[params.social]]
-icon = "fab fa-twitter"
-link = "#"
-title = "twitter"
-[[params.social]]
-icon = "fab fa-instagram"
-link = "#"
-title = "instagram"
-[[params.social]]
 icon = "fab fa-github"
-link = "#"
+link = "https://github.com/halderex"
 title = "github"
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "#"
+link = "https://www.linkedin.com/in/henrik-aldermo/"
 title = "linkedin"
