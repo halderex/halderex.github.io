@@ -22,10 +22,8 @@ A limitation however, is that mail-enabled security group only allows for static
 
 Just to make things clear, the concept of dynamic groups already exist in the Microsoft 365 cloud platform:
 
-#### Dynamic Security Groups
+_Dynamic Security Groups_ can be created in Azure AD. This kind of group can not however be mail-enabled currently.
 
-can be created in Azure AD. This kind of group can not however be mail-enabled currently.
-
-**_Dynamics Distribution Lists_** in Exchange Online uses rules and queries to determine members. These are executed when an email is sent to the list and there is no easy way for end-users to see who will receive the message.
+_Dynamics Distribution Lists_ in Exchange Online uses rules and queries to determine members. These are executed when an email is sent to the list and there is no easy way for end-users to see who will receive the message.
 
 _Photo by_ [_Eric Krull_](https://unsplash.com/@ekrull?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) _on_ [_Unsplash_](https://unsplash.com/s/photos/robot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
