@@ -6,7 +6,9 @@ image = "/images/blog/eric-krull-ejcuhcdfwrs-unsplash.jpg"
 title = "Updating Exchange Distribution Groups with Azure Automation"
 
 +++
-## The need for "dynamic" AND mail-enabled security groups
+Dynamic AND mail-enabled security groups are a highly wanted feature in Azure AD and Exchange Online. This article describes how to achieve this using Azure Automation.
+
+## The need for "dynamic" mail-enabled security groups
 
 Mail-enabled security groups are very useful and versatile. They can be used in both Exchange Online and Azure Active Directory to distribute email and secure resources, among other things.
 
