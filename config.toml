@@ -26,7 +26,7 @@ custom_script = ""
 description = "This is meta description"
 favicon = "images/favicon.png"
 logo = "images/logo.png"
-logo_width = "100px"
+logo_width = "200px"
 main_section = "post"
 [params.cookies]
 enable = false
@@ -46,22 +46,10 @@ text_color_dark = "#000"
 text_color_light = "#999"
 white = "#fff"
 [[params.social]]
-icon = "fab fa-facebook"
-link = "#"
-title = "facebook"
-[[params.social]]
-icon = "fab fa-twitter"
-link = "#"
-title = "twitter"
-[[params.social]]
-icon = "fab fa-instagram"
-link = "#"
-title = "instagram"
-[[params.social]]
 icon = "fab fa-github"
-link = "#"
+link = "https://github.com/halderex"
 title = "github"
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "#"
+link = "https://www.linkedin.com/in/henrik-aldermo/"
 title = "linkedin"
