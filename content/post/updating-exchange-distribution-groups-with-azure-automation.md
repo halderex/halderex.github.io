@@ -1,7 +1,7 @@
 +++
 categories = ["Exchange", "Automation", "Azure"]
 date = 2022-01-08T23:00:00Z
-description = ""
+description = "Dynamic and mail-enabled security groups are a highly wanted feature in Exchange Online. This article describes how to achieve this using Azure Automation."
 image = "/images/blog/eric-krull-ejcuhcdfwrs-unsplash.jpg"
 title = "Updating Exchange Distribution Groups with Azure Automation"
 
@@ -22,6 +22,6 @@ Just to make things clear, the concept of dynamic groups already exist in the Mi
 
 **Dynamic Security Groups** can be created in Azure AD. This kind of group can not however be mail-enabled currently.
 
-** 
+**Dynamics Distribution Lists** in Exchange Online uses rules and queries to determine members. These are executed when an email is sent to the list and there is no easy way for end-users to see who will receive the message.
 
 _Photo by_ [_Eric Krull_](https://unsplash.com/@ekrull?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) _on_ [_Unsplash_](https://unsplash.com/s/photos/robot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
