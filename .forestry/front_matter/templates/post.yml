@@ -17,5 +17,3 @@ fields:
 - type: list
   name: categories
   label: categories
-pages:
-- content/post/updating-exchange-distribution-groups-with-azure-automation.md
