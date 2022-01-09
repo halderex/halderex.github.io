@@ -21,7 +21,7 @@ main_section = "post"
 # banner content
 banner_content = "Notes from the field working with Azure, Microsoft 365 and related Cloud technologies."
 # copyright
-copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "©️ Henrik Aldermo 2022"
 custom_script = ""
 description = "This is meta description"
 favicon = "images/favicon.png"
