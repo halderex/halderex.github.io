@@ -19,7 +19,7 @@ author = "Themefisher"
 # main section
 main_section = "post"
 # banner content
-banner_content = "Notes from the field, working with Azure, Microsoft 365 and related Cloud technologies."
+banner_content = "Notes from the field working with Azure, Microsoft 365 and related Cloud technologies."
 # copyright
 copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
 custom_script = ""
