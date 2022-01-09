@@ -2,7 +2,7 @@ baseURL = "/"
 paginate = "5"
 summaryLength = "20"
 theme = "apollo-hugo"
-title = "HaldeRex | a Cloud Tech Blog"
+title = "HaldeRex | A Cloud Tech Blog"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
