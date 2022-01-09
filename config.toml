@@ -49,7 +49,7 @@ author = "Themefisher"
 # main section
 main_section = "post"
 # banner content
-banner_content = "Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem."
+banner_content = "Notes from the field, working with Azure, Microsoft 365 and related Cloud technologies."
 # copyright
 copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
 # custom script on header
