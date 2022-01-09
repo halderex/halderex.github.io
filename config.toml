@@ -27,7 +27,6 @@ description = "This is meta description"
 favicon = "images/favicon.png"
 logo = "images/logo.png"
 logo_width = "200px"
-main_section = "post"
 [params.cookies]
 enable = false
 expire_days = 2
