@@ -11,4 +11,6 @@ A techie since childhood, driven by great curiosity for technology and constantl
 
 I created this blog to share things I´ve learned working as an Azure Architect and Administrator over the last 5+ years. To me, creating and sharing content is a great way to build knowledge, and at the same time it might help others.
 
+Powered by [Hugo](https://gohugo.io/ "Hugo") using [Apollo theme](https://github.com/gethugothemes/apollo-hugo "Apollo theme"). Hosted on [Gitbub Pages](https://pages.github.com/ "Github Pages")
+
 {{</ center >}}
