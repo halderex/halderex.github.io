@@ -6,7 +6,7 @@ image = "/images/blog/eric-krull-ejcuhcdfwrs-unsplash.jpg"
 title = "Dynamic AND Mail-enabled security groups with Azure Automation"
 
 +++
-Dynamic AND Mail-enabled security groups are a highly wanted feature in Azure AD and Exchange Online. This article describes how to achieve this using Azure Automation.
+DRAFT, IN PROGRESS! Dynamic AND Mail-enabled security groups are a highly wanted feature in Azure AD and Exchange Online. This article describes how to achieve this using Azure Automation.
 
 ***
 
