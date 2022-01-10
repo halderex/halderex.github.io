@@ -90,7 +90,7 @@ h6,
     color: #cdcdcd; }
 
 body {
-  background-color: #dfdfdf;
+  background-color: #e4e4e4;
   overflow-x: hidden; }
 
 ::selection {

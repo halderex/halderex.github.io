@@ -34,7 +34,7 @@ expire_days = 2
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
 [params.variables]
 black = "#000"
-body_color = "#dfdfdf"
+body_color = "#e4e4e4"
 border_color = "#e2e2e2"
 icon_font = "Fontawesome 5 Free"
 light = "#f1f1f1"
