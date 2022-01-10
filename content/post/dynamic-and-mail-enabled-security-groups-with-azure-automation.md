@@ -18,7 +18,7 @@ Mail-enabled security groups are very useful and versatile. They can be used in 
 
 (Quote from [Recipients in Exchange Online | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/recipients-in-exchange-online))
 
-A limitation however, is that mail-enabled security group only allows for static membership. You can of course add and remove users from groups as needed, but this is often a manual and time-consuming process. There's also a risk of mistakenly adding users to the wrong group or forgetting to adding new users etc. This might lead to security incidents such as unwanted permissions or business information not being distributed as intended.
+A limitation however, is that mail-enabled security group only allows for static membership. You can of course add and remove users from groups as needed, but this is often a manual and time-consuming process. There's also a risk of mistakenly adding users to the wrong group or forgetting to adding new users etc. This might lead to incidents such as unwanted permissions or business information not being distributed as intended.
 
 ### Available dynamic group options in Azure AD and Exchange Online
 
