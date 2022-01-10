@@ -51,7 +51,7 @@ Next, we need to figure suitable tools to use. When working with Azure Active Di
 
 * **New-DistributionGroup** to create our groups.
 * **Get-EXORecipient** to filter out group members.
-* **Update-DistributionGroupMember** to update group members
+* **Update-DistributionGroupMember** to update group members.
 
 ### Future improvement
 
