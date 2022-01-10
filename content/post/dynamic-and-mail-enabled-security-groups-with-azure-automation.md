@@ -1,5 +1,5 @@
 +++
-categories = ["Exchange", "Azure Automation"]
+categories = ["DRAFT", "Exchange", "Azure Automation"]
 date = 2022-01-08T23:00:00Z
 description = "Dynamic AND Mail-enabled security groups are a highly wanted feature. This article describes how to achieve this using Azure Automation."
 image = "/images/blog/eric-krull-ejcuhcdfwrs-unsplash.jpg"
