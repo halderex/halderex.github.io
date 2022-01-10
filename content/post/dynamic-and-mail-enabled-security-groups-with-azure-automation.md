@@ -49,6 +49,10 @@ A starting point for create and update dynamic mail-enabled security groups coul
 
 Next, we need to figure suitable tools to use. When working with Azure Active Directory and Exchange Online, Powershell is always close at hand and in this case, the [Exchange Online Management Module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) should have all the "cmdlets" we need.
 
+### Future improvement
+
+In my implementation I initially created the mail-enabled security groups manually. An improvement would be to either use a script for this task or, even better, have the Azure Automation Runbook create missing groups before populating them.
+
 ### References, sources and inspiration
 
 * [About the Exchange Online PowerShell V2 module | Microsoft Docs](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps)
