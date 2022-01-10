@@ -20,7 +20,7 @@ Mail-enabled security groups are very useful and versatile. They can be used in 
 
 A limitation however, is that mail-enabled security group only allows for static membership by default. You can of course add and remove users from groups as needed, but this is often a manual and time-consuming process. There's also a risk of mistakenly adding users to the wrong group or forgetting to adding new users etc. This might lead to security incidents such as unwanted permissions or information not being distributed as intended.
 
-### Dynamic group options in Azure AD and Exchange Online
+### Available dynamic group options in Azure AD and Exchange Online
 
 Just to make things clear, the concept of dynamic groups already exist in the Microsoft 365 cloud platform:
 
@@ -48,6 +48,10 @@ A starting point for create and update dynamic mail-enabled security groups coul
    b. Add and remove members as needed.
 
 Next, we need to figure suitable tools to use. When working with Azure Active Directory and Exchange Online, Powershell is always close at hand and in this case, the [Exchange Online Management Module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps) should have all the "cmdlets" we need.
+
+* **New-DistributionGroup** to create our groups.
+* **Get-EXORecipient** to filter out group members.
+* **Update-DistributionGroupMember** to update group members
 
 ### Future improvement
 
