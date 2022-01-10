@@ -33,4 +33,6 @@ Wouldn't it be awesome if you could combine these two group types? Having fully 
 
 I recently came across the requirement of "dynamic" mail-enabled security groups at a client who has multiple companies in the same Azure AD and Microsoft 365 tenant. Each company of course has different departments and staff are spread over various countries. On top of that, there are numerous teams with members that change over time and where individuals can be part of multiple teams. Then there's the aspect of differencing employees from consultants when needed... Quite a complex scenario but surely not an uncommon one. 
 
+***
+
 _Photo by_ [_Eric Krull_](https://unsplash.com/@ekrull?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) _on_ [_Unsplash_](https://unsplash.com/s/photos/robot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
