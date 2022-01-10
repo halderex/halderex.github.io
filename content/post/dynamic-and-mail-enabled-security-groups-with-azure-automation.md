@@ -31,7 +31,7 @@ Wouldn't it be awesome if you could combine these two group types? Having fully 
 
 ## Azure Automation to the rescue!
 
-I recently came across the requirement of "dynamic" mail-enabled security groups at a client who has multiple companies in the same Azure AD and Microsoft 365 tenant. Each company of course has different departments and staff are spread over various countries. On top of that, there are numerous teams with members that change over time and where individuals can be part of multiple teams. Then there's the aspect of differencing employees from consultants... Quite a complex scenario but surely not an uncommon one. Automating the process of keeping groups up to date would be a huge time-saver and make life so much easier for the it administrator. 
+I recently came across the requirement of "dynamic" mail-enabled security groups at a client who has multiple companies in the same Azure AD and Microsoft 365 tenant. Each company of course has different departments and staff are spread over various countries. On top of that, there are numerous teams with members that change over time and where individuals can be part of multiple teams. Then there's the aspect of differencing employees from consultants... Quite a complex scenario but surely not an uncommon one. Automating the process of keeping groups up to date would be a huge time-saver and make life so much easier for the it administrator. So, lets do it!
 
 ### Planning the solution
 
@@ -53,15 +53,25 @@ Next, we need to figure suitable tools to use. When working with Azure Active Di
 * **Get-EXORecipient** to filter out group members.
 * **Update-DistributionGroupMember** to update group members.
 
-Setting the stage
+## Setting the stage
 
-Prerequisites
+zczczx
 
-Building blocks
+### Prerequisites
 
-Putting it a together
+zxcxzcz
 
-Monitoring
+### Building blocks
+
+xzczcx
+
+## Putting it all together
+
+### xxzczxc
+
+### Monitoring
+
+zcxczx
 
 ### Future improvement
 
