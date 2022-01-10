@@ -1,5 +1,5 @@
 +++
-categories = ["Exchange", "Automation", "Azure"]
+categories = ["Exchange", "Azure Automation"]
 date = 2022-01-08T23:00:00Z
 description = "Dynamic AND Mail-enabled security groups are a highly wanted feature. This article describes how to achieve this using Azure Automation."
 image = "/images/blog/eric-krull-ejcuhcdfwrs-unsplash.jpg"
@@ -39,7 +39,15 @@ When planning for automation, a first step might be to note down the manual step
 
 A starting point for create and update dynamic mail-enabled security groups could be:
 
-1. Define and create require mail-enabled security groups.
+1. Determine a policy on what user attributes to use for different purposes and a guideline on how to populate them.
+2. Define and create mail-enabled security groups as required by the organization together with rules for group membership, based on user attributes.
+3. For each group:
+
+   a.  Search the directory for users whose attributes match the defined rules.
+
+   b. Add and remove members as needed.
+
+Next, we need to figure out what tools 
 
 ***
 
